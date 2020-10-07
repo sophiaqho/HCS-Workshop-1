@@ -1,7 +1,27 @@
 .intro-background {
+  display: flex;
+  flex-direction: row;
 }
 
 .intro-item {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facts-item {
+  display: flex;
+  padding: 24px;
+  flex: 1;
+  flex-direction: column;
+}
+
+.facts-background {
+  display: flex;
+  padding: 24px;
+  flex: 1;
+  flex-direction: column;
 }
 
 .intro-item h1,
@@ -16,6 +36,6 @@ li {
 }
 
 .intro-picture {
-  width: 100%;
+  width: 80%;
   height: 100%;
 }
